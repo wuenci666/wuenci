@@ -50,10 +50,10 @@ storage-name	metingjs	localStorage key that store player setting
 		<meta charset="utf-8" />
 		<title></title>	
 	<!-- require APlayer -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/APlayer.min.css">
+	<script src="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/APlayer.min.js"></script>
 	<!-- require MetingJS -->
-	<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/Meting.min.js"></script>
 	</head>
 	<body>
 
@@ -75,10 +75,10 @@ storage-name	metingjs	localStorage key that store player setting
 </html>
 简洁调用：
 <!--css-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/APlayer.min.css">
 <!--js-->
-	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/APlayer.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/Meting.min.js"></script>
         <!--使用-->
 	<meting-js 
 	server="netease" 
@@ -94,9 +94,9 @@ storage-name	metingjs	localStorage key that store player setting
 	lrc-type="1">
 	</meting-js>
 页脚引用：
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/Meting.min.js"></script>
 <div>
 <meting-js 
 	server="netease" 
@@ -119,10 +119,10 @@ storage-name	metingjs	localStorage key that store player setting
 		<meta charset="utf-8" />
 		<title></title>	
 	<!-- require APlayer -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-	<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/APlayer.min.css">
+	<script src="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/APlayer.min.js"></script>
 	<!-- require MetingJS -->
-	<script src="https://cdn.jsdelivr.net/npm/meting@2.0.1/dist/Meting.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/Meting.min.js"></script>
 	</head>
 	<body>
 <meting-js server="netease" type="playlist" id="60198"></meting-js>
