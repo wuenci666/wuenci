@@ -18,6 +18,9 @@ lrc-type（歌词）	0	歌词显示
 list-folded（列表折叠）	false	指示列表是否应该首先折叠
 list-max-height（最大高度）	340px	列出最大高度
 storage-name（储存名称）	metingjs	存储播放器设置的localStorage键
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 英文版选项
 
 option	default	description
@@ -39,11 +42,11 @@ list-folded	false	indicate whether list should folded at first
 list-max-height	340px	list max height
 storage-name	metingjs	localStorage key that store player setting
 
-
-
 直接调用：
 迷你版背景音乐
 根据以上参数，写好了迷你版背景音乐，默认在左下角显示，默认列表折叠，默认不显示歌词
+
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -73,7 +76,11 @@ storage-name	metingjs	localStorage key that store player setting
 
 	</body>
 </html>
+
+
 简洁调用：
+
+
 <!--css-->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/APlayer.min.css">
 <!--js-->
@@ -93,7 +100,11 @@ storage-name	metingjs	localStorage key that store player setting
 	list-max-height="500px"
 	lrc-type="1">
 	</meting-js>
+	
+	
 页脚引用：
+
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/APlayer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/wuenci666/wuenci@master/music/Meting.min.js"></script>
@@ -112,7 +123,11 @@ storage-name	metingjs	localStorage key that store player setting
 	lrc-type="1">
 </meting-js>	
 </div>
+
+
 简单直接调用：
+
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -128,6 +143,8 @@ storage-name	metingjs	localStorage key that store player setting
 <meting-js server="netease" type="playlist" id="60198"></meting-js>
 	</body>
 </html>
+
+
 注释：
  解析：server="netease" type="playlist" id="60198"
 
