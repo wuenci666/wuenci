@@ -1,0 +1,46 @@
+                 </ul>
+                                                                 <!-- 恋爱计时 -->
+        <ul class="joe_header__slideout-count">
+        <div  style="font-size:15px; text-align: center; color:#00BFFF;">
+        <div style="width: 220px; margin: 0 auto;">
+        <!-- 左边的头像，nk=后面填写QQ号，直接采集QQ头像 -->
+        <img src="https://q1.qlogo.cn/g?b=qq&nk=33568326&s=640" alt="love"
+            style="width: 60px; border-radius: 50%;">
+        <!-- 中间的图片 -->
+        <img src="http://boke.yuxli.cn/usr/uploads/2021/11/347116877.gif" alt="love"
+            style="width: 60px; border-radius: 50%;">
+        <!-- 右边的头像，nk=后面填写QQ号，直接采集QQ头像 -->
+        <img src="https://q1.qlogo.cn/g?b=qq&nk=2787273192&s=640" alt="love"
+            style="width: 60px; border-radius: 50%;">
+        </div>
+        <p id="loveSitetime"></p>
+        <script language=javascript>
+        function loveSitetime() {
+            window.setTimeout("loveSitetime()", 1000);
+            var seconds = 1000
+            var minutes = seconds * 60
+            var hours = minutes * 60
+            var days = hours * 24
+            var years = days * 365
+            var today = new Date()
+            var todayYear = today.getFullYear()
+            var todayMonth = today.getMonth() + 1
+            var todayDate = today.getDate()
+            var todayHour = today.getHours()
+            var todayMinute = today.getMinutes()
+            var todaySecond = today.getSeconds()
+            // 时间设置
+            var t1 = Date.UTC(2016, 10, 19, 22, 22, 00)  //年,月,日,时,分,秒
+            var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)
+            var diff = t2 - t1
+            var diffYears = Math.floor(diff / years)
+            var diffDays = Math.floor((diff / days) - diffYears * 365)
+            var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours)
+            var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) / minutes)
+            var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                diffMinutes * minutes) / seconds)
+            document.getElementById("loveSitetime").innerHTML = "我们分手了：</br>" + diffYears + "年" + diffDays + "天" +
+                diffHours + "时" + diffMinutes + "分" + diffSeconds + "秒啦</p>我在等一个人，一个可以陪我很久很久的人</br>"
+        }
+        loveSitetime()
+        </script>
