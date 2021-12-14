@@ -1,4 +1,4 @@
-        <link rel="stylesheet" href="https://ztoo.top/libs/aplayer/APlayer.min.css">
+        <link rel="stylesheet" href="/APlayer.min.css">
 <style>
     .aplayer .aplayer-lrc p {
         
@@ -48,8 +48,8 @@
     </div>
 </div>
 
-<script src="https://ztoo.top/libs/aplayer/APlayer.min.js"></script>
-<script src="https://ztoo.top/libs/aplayer/Meting.min.js"></script>
+<script src="/APlayer.min.js"></script>
+<script src="/Meting.min.js"></script>
          <!-- 运行天数提醒. -->
             
                 <span id="sitetime"> Loading ...</span>
