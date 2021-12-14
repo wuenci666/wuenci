@@ -1,0 +1,33 @@
+<!-- 显示FPS开始 -->
+<script>
+//if ((!navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))) {//匹配手机，把注释去掉就只显示PC端
+    $('body').before('<div id="fps" style="color:#FFB6C1;z-index:10000;position:fixed;top:3px;left:3px;font-weight:bold;"></div>');
+    var showFPS = (function() {
+        var requestAnimationFrame = window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function(callback) {
+            window.setTimeout(callback, 1000 / 60);
+        }
+        ;
+        var e, pe, pid, fps, last, offset, step, appendFps;
+        fps = 0;
+        last = Date.now();
+        step = function() {
+            offset = Date.now() - last;
+            fps += 1;
+            if (offset >= 1000) {
+                last += offset;
+                appendFps(fps);
+                fps = 0;
+            }
+            requestAnimationFrame(step);
+        }
+        ;
+        appendFps = function(fps) {
+            $('#fps').html(fps + 'FPS');
+        }
+        ;
+        step();
+    }
+    )();
+//}//手机和电脑开启
+</script>
+<!-- 显示FPS结束 -->
